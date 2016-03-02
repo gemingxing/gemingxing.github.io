@@ -276,6 +276,13 @@
 
           
             
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2016/03/02/Android-实现在线更新/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/03/02/Android-实现在线更新/" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
           
 
           
@@ -319,13 +326,13 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
+              <a href="/2016/03/02/hello-world/" rel="next" title="在Mac上使用Github+hexo搭建博客">
+                <i class="fa fa-chevron-left"></i> 在Mac上使用Github+hexo搭建博客
+              </a>
+            
           </div>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2016/03/02/hello-world/" rel="prev" title="在Mac上使用Github+hexo搭建博客">
-                在Mac上使用Github+hexo搭建博客 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -348,26 +355,14 @@
           
 
 
-          <% if ( page.comments){ %>
-<section id="comment">
-<!-- 多说评论框 start -->
-  <div class="ds-thread" data-thread-key="<%- item.path %>" data-title="<%= item.title %>" data-url="<%- config.url %><%- config.root%><%- item.path %>"></div>
-<!-- 多说评论框 end -->
-<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
-<script type="text/javascript">
-var duoshuoQuery = {short_name:"gemingxing"};
-  (function() {
-    var ds = document.createElement('script');
-    ds.type = 'text/javascript';ds.async = true;
-    ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
-    ds.charset = 'UTF-8';
-    (document.getElementsByTagName('head')[0] 
-     || document.getElementsByTagName('body')[0]).appendChild(ds);
-  })();
-  </script>
-<!-- 多说公共JS代码 end -->
-</section>
-<% } %>
+          
+  <div class="comments" id="comments">
+    
+      <div class="ds-thread" data-thread-key="2016/03/02/Android-实现在线更新/"
+           data-title="Android 实现在线更新" data-url="http://yoursite.com/2016/03/02/Android-实现在线更新/">
+      </div>
+    
+  </div>
 
         </div>
         
@@ -734,9 +729,28 @@ var duoshuoQuery = {short_name:"gemingxing"};
 
   
 
+  
+    
+  
 
+  <script type="text/javascript">
+    var duoshuoQuery = {short_name:"gemingxing"};
+    (function() {
+      var ds = document.createElement('script');
+      ds.type = 'text/javascript';ds.async = true;
+      ds.id = 'duoshuo-script';
+      ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+      ds.charset = 'UTF-8';
+      (document.getElementsByTagName('head')[0]
+      || document.getElementsByTagName('body')[0]).appendChild(ds);
+    })();
+  </script>
 
   
+    
+  
+
+
 
 
 

@@ -247,9 +247,9 @@
 
       <h1 class="post-title">
         
-            <a class="post-title-link" href="/2016/03/02/hello-world/" itemprop="url">
+            <a class="post-title-link" href="/2016/03/02/Android-实现在线更新/" itemprop="url">
               
-                <span itemprop="name">在Mac上使用Github+hexo搭建博客</span>
+                <span itemprop="name">Android 实现在线更新</span>
               
             </a>
         
@@ -284,9 +284,9 @@
 
       <h1 class="post-title">
         
-            <a class="post-title-link" href="/2016/03/02/Android-实现在线更新/" itemprop="url">
+            <a class="post-title-link" href="/2016/03/02/hello-world/" itemprop="url">
               
-                <span itemprop="name">Android 实现在线更新</span>
+                <span itemprop="name">在Mac上使用Github+hexo搭建博客</span>
               
             </a>
         
@@ -317,27 +317,7 @@
           
 
 
-          <% if ( page.comments){ %>
-<section id="comment">
-<!-- 多说评论框 start -->
-  <div class="ds-thread" data-thread-key="<%- item.path %>" data-title="<%= item.title %>" data-url="<%- config.url %><%- config.root%><%- item.path %>"></div>
-<!-- 多说评论框 end -->
-<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
-<script type="text/javascript">
-var duoshuoQuery = {short_name:"gemingxing"};
-  (function() {
-    var ds = document.createElement('script');
-    ds.type = 'text/javascript';ds.async = true;
-    ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
-    ds.charset = 'UTF-8';
-    (document.getElementsByTagName('head')[0] 
-     || document.getElementsByTagName('body')[0]).appendChild(ds);
-  })();
-  </script>
-<!-- 多说公共JS代码 end -->
-</section>
-<% } %>
-
+          
         </div>
         
           
@@ -522,9 +502,28 @@ var duoshuoQuery = {short_name:"gemingxing"};
 
   
 
+  
+    
+  
 
+  <script type="text/javascript">
+    var duoshuoQuery = {short_name:"gemingxing"};
+    (function() {
+      var ds = document.createElement('script');
+      ds.type = 'text/javascript';ds.async = true;
+      ds.id = 'duoshuo-script';
+      ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+      ds.charset = 'UTF-8';
+      (document.getElementsByTagName('head')[0]
+      || document.getElementsByTagName('body')[0]).appendChild(ds);
+    })();
+  </script>
 
   
+    
+  
+
+
 
 
 
