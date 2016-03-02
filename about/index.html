@@ -63,7 +63,7 @@
 <meta property="og:url" content="http://yoursite.com/about/index.html">
 <meta property="og:site_name" content="付出不亚于任何人的努力">
 <meta property="og:description" content="Name: 葛明星Email: gemingxing12345@163.com先居住地址: 上海浦东新区">
-<meta property="og:updated_time" content="2016-03-02T11:45:36.000Z">
+<meta property="og:updated_time" content="2016-03-02T13:03:08.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="关于">
 <meta name="twitter:description" content="Name: 葛明星Email: gemingxing12345@163.com先居住地址: 上海浦东新区">
@@ -123,7 +123,7 @@
       <span class="logo-line-after"><i></i></span>
     </a>
   </div>
-  <p class="site-subtitle"></p>
+  <p class="site-subtitle">我走的很慢，但我从不后退。</p>
 </div>
 
 <div class="site-nav-toggle">
@@ -234,11 +234,26 @@
           
 
 
-          
-  <div class="comments" id="comments">
-    
-  </div>
-
+          <!-- <% if ( page.comments){ %> -->
+<section id="comment">
+<!-- 多说评论框 start -->
+  <div class="ds-thread" data-thread-key="<%- item.path %>" data-title="<%= item.title %>" data-url="<%- config.url %><%- config.root%><%- item.path %>"></div>
+<!-- 多说评论框 end -->
+<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+<script type="text/javascript">
+var duoshuoQuery = {short_name:"gemingxing"};
+  (function() {
+    var ds = document.createElement('script');
+    ds.type = 'text/javascript';ds.async = true;
+    ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+    ds.charset = 'UTF-8';
+    (document.getElementsByTagName('head')[0] 
+     || document.getElementsByTagName('body')[0]).appendChild(ds);
+  })();
+  </script>
+<!-- 多说公共JS代码 end -->
+</section>
+<!-- % } % -->
 
         </div>
         
@@ -265,7 +280,7 @@
                src="/uploads/avatar.png"
                alt="MingXing" />
           <p class="site-author-name" itemprop="name">MingXing</p>
-          <p class="site-description motion-element" itemprop="description"></p>
+          <p class="site-description motion-element" itemprop="description">Android</p>
         </div>
         <nav class="site-state motion-element">
           <div class="site-state-item site-state-posts">
@@ -278,7 +293,7 @@
           
             <div class="site-state-item site-state-categories">
               <a href="/categories">
-                <span class="site-state-item-count">1</span>
+                <span class="site-state-item-count">2</span>
                 <span class="site-state-item-name">分类</span>
               </a>
             </div>
@@ -287,7 +302,7 @@
           
             <div class="site-state-item site-state-tags">
               <a href="/tags">
-                <span class="site-state-item-count">2</span>
+                <span class="site-state-item-count">3</span>
                 <span class="site-state-item-name">标签</span>
               </a>
             </div>
