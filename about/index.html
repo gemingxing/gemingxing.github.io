@@ -234,7 +234,7 @@
           
 
 
-          <!-- <% if ( page.comments){ %> -->
+          <% if ( page.comments){ %>
 <section id="comment">
 <!-- 多说评论框 start -->
   <div class="ds-thread" data-thread-key="<%- item.path %>" data-title="<%= item.title %>" data-url="<%- config.url %><%- config.root%><%- item.path %>"></div>
@@ -253,7 +253,7 @@ var duoshuoQuery = {short_name:"gemingxing"};
   </script>
 <!-- 多说公共JS代码 end -->
 </section>
-<!-- % } % -->
+<% } %>
 
         </div>
         
